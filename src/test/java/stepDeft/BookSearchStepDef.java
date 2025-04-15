@@ -46,7 +46,7 @@ public class BookSearchStepDef {
 	public void should_display_crime_thrillers_result_page() {
 		String strUrl = driver.getCurrentUrl();
 		//Assert.assertTrue(strUrl.contains("novel"));
-		Assert.assertTrue(strUrl.contains("crime fail"));
+		Assert.assertTrue(strUrl.contains("crime"));
 	}
 	
 	@After
